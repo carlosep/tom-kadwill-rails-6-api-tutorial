@@ -6,3 +6,10 @@ Style/Documentation:
 
 Style/FrozenStringLiteralComment:
   Enabled: false
+
+
+Metrics/BlockLength:
+  CountComments: false
+  Max: 5
+  Exclude:
+    - 'spec/*/**'
