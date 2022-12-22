@@ -13,3 +13,6 @@ Metrics/BlockLength:
   Max: 5
   Exclude:
     - 'spec/*/**'
+
+Style/HashSyntax:
+  Enabled: false
